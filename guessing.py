@@ -48,4 +48,9 @@ def play_guessing():
             points_lost = abs(secret_number - user__attempt)
             points = points - points_lost
 
-            print("Fim do jogo")
+
+if(__name__ == "__main__"):
+  play_guessing()
+
+
+print("Fim do jogo")
